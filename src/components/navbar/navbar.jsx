@@ -10,14 +10,14 @@ export const Navbar = () => {
   return (
     <>
       <div className="container">
-        <div className="flex justify-between border py-5 flex-wrap">
+        <div className="flex justify-between py-5 flex-wrap">
           <div className="flex align-middle gap-3 justify-center">
             <LogoIcon />
             <p className="h-10 my-auto truncate text-[15px] leading-[130%]">
               Колбасы и мясные <br /> деликатесы
             </p>
           </div>
-          <div className="flex justify-between align-middle border gap-3">
+          <div className="flex justify-between align-middle gap-3">
             <span className="px-[14px] py-[13px] relative cursor-pointer">
               <StarIcon />
               <span className="absolute top-[5px] right-[2px] px-[5px] py-[] bg-secondary  rounded-[50%] text-xs">
