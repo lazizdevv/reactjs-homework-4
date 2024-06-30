@@ -15,7 +15,7 @@ export const ProductCard = function ({img,name, title,price}) {
                 <p className="text-primary font-roboto text-3xl font-bold leading-none tracking-normal text-left">
                     {price} <span className="text-xl">₽</span>
                 </p>
-                <div className="flex justify-between align-middle mb-6 gap-3">
+                <div className="flex justify-between align-middle mb-6 gap-2">
                     <del className="font-medium text-xl text-secondary text-left">660 ₽</del>
                     <div className="flex align-middle">
                         <p className="px-2 py-1 bg-secondary">-15%</p>
