@@ -20,7 +20,7 @@ export default function App() {
       </header>
 
       <main>
-        <section className="container">
+        <div className="container">
           <div className="flex flex-wrap">
             {productsMain.map((card, index) => {
               let widthClass;
@@ -37,7 +37,7 @@ export default function App() {
               );
             })}
           </div>
-        </section>
+        </div>
 
         <Carousel products={products} />
       </main>
